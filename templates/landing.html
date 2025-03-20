@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Prediction</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add a CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mental Health Prediction Assessment</h1>
+        <p>Your well-being matters. Get insights into your mental health.</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>About Our Platform</h2>
+            <p>This platform uses advanced machine learning models to assess mental health based on provided inputs. Take a short assessment to get insights and recommendations.</p>
+        </section>
+
+        <section class="cta">
+            <h2>Start Your Assessment</h2>
+            <p>Click the button below to proceed to the mental health prediction tool.</p>
+            <a href="{{ url_for('assessment') }}" class="button">Take Assessment</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projected by @ Aahan,Kshitiz,Sudeep,Sahil,Shivangi.</p>
+      
+    </footer>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+        .intro, .cta {
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: white;
+            background: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #45a049;
+        }
+        footer {
+            margin-top: 150px;
+            padding: 2px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</body>
+</html>
