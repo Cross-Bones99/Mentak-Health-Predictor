@@ -1,2 +1,2 @@
-# Mentak-Health-Predictor
+# Mental-Health-Predictor
 Predicts the mental health 
